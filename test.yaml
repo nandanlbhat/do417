@@ -1,0 +1,9 @@
+---
+- name: test play to say hello world
+  hosts: localhost
+  gather_facts: false
+  tasks:
+    - name: say hello
+      debug:
+        msg: hello world
+...
